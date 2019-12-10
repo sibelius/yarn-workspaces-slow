@@ -1,0 +1,107 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+packages/**/ios/Index/
+
+# Android/IntelliJ
+#
+build/
+.idea
+.vscode
+.gradle
+local.properties
+*.iml
+# Pods
+/ios/Pods
+Pods/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+android/app/libs
+#*.keystore
+!debug.keystore
+
+# React-Native
+.tmp
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+packages/**/fastlane/report.xml
+packages/**/fastlane/Preview.html
+packages/**/fastlane/screenshots
+
+jsconfig.json
+
+.env
+
+# relay-compiler generated files
+__generated__/
+
+# Ignore folder
+ignore/
+
+graphql.config.json
+graphql.schema.json
+
+scripts/dirtemp/
+ios/Firebase
+
+# Bundle artifact
+*.jsbundle
+metro-cache/
+
+# Ruby
+.bundle
+vendor
+
+# We use yarn
+package-lock.json
+/yarn-offline-cache
+.yarnrc
+
+# Bundle artifact
+*.jsbundle
+
+# Firebase
+ios/GoogleService-Info.plist
+packages/**/ios/GoogleService-Info.plist
+
+## User settings
+xcuserdata/
+junit.xml
